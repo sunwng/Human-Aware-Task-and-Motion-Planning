@@ -1,5 +1,5 @@
 Using pre-set license
-Desktop is 1920 x 1080 @ 60 Hz
+Desktop is 1920 x 1200 @ 60 Hz
 
  COMMAND LINE ARGUMENTS:
 Unity
@@ -13,19 +13,19 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-33337
+38835
 Successfully changed project path to: /home/park/Human-Aware-Task-and-Motion-Planning/Unity
 /home/park/Human-Aware-Task-and-Motion-Planning/Unity
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 26.42 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 52.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path /home/park/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /home/park/Human-Aware-Task-and-Motion-Planning/Unity/Assets
 GLX Extensions: GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_visual_info GLX_EXT_visual_rating GLX_EXT_import_context GLX_SGI_video_sync GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGI_swap_control GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_buffer_age GLX_ARB_create_context GLX_ARB_create_context_profile GLX_NV_float_buffer GLX_ARB_fbconfig_float GLX_EXT_texture_from_pixmap GLX_EXT_framebuffer_sRGB GLX_NV_copy_image GLX_EXT_create_context_es_profile GLX_EXT_create_context_es2_profile GLX_ARB_create_context_no_error GLX_ARB_create_context_robustness GLX_NV_delay_before_swap GLX_EXT_stereo_tree GLX_ARB_context_flush_control GLX_NV_robustness_video_memory_purge GLX_NV_multigpu_context 
-Renderer: NVIDIA GeForce RTX 3060/PCIe/SSE2
+Renderer: NVIDIA GeForce GTX 1650 Ti/PCIe/SSE2
 Vendor:   NVIDIA Corporation
-Version:  4.5.0 NVIDIA 470.57.02
+Version:  4.5.0 NVIDIA 470.86
 GLES:     0
  GL_AMD_multi_draw_indirect GL_AMD_seamless_cubemap_per_texture GL_AMD_vertex_shader_viewport_index GL_AMD_vertex_shader_layer GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragmen
 t_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoki
@@ -35,187 +35,127 @@ ranspose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_ver
 GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_multiview_texture_multisample GL_EXT_multiview_timer_query GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_post_depth_coverage GL_EXT_provoking_vertex GL_EXT_raster_multisample GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_sparse_texture2 GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_lod G
 L_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_EXT_memory_object GL_EXT_memory_object_fd GL_NV_memory_object_sparse GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_EXT_semaphore GL_EXT_semaphore_fd GL_NV_timeline_semaphore GL_KHR_shader_subgroup GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count GL_NV_bindless_texture GL_NV_blend_equation_advanced GL_NV_
 blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffers GL_NV_blend_minmax_factor GL_NV_blend_square GL_NV_clip_space_w_scaling GL_NV_command_list GL_NV_compute_program5 GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_conservative_raster GL_NV_conservative_raster_dilate GL_NV_conservative_raster_pre_snap GL_NV_conservative_raster_pre_snap_triangles GL_NV_conservative_raster_underestimation GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_draw_vulkan_image GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample GL_NV_feature_query GL_NV_fence GL_NV_fill_rectangle GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_coverage_to_color GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_fragment_shader_barycentric GL_NV_fragment_shader_interlock GL_NV_framebuffer_mixed_samples GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_geometry_sha
-der_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_primitive_shading_rate GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_par
-titioned GL_NV_shader_texture_footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_dirty_tile_map GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent 
-GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
-OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1247166808
+der_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_partitioned GL_NV_shader_texture
+_footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap
+ GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1072219944
 Initialize mono
 Mono path[0] = '/home/park/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = '/home/park/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/home/park/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56969
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56967
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/park/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.000697 seconds.
+Registered in 0.001267 seconds.
 Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 30.55 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 45.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.669 seconds
+- Completed reload, in  1.057 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001262 seconds.
+Registered in 0.002635 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 41.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.602 seconds
+- Completed reload, in  1.036 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler after 0.00 seconds
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.0 MB.
-System memory in use after: 67.0 MB.
+Unloading 1839 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.7 MB.
+System memory in use after: 75.7 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 1932.
-Total: 2.319209 ms (FindLiveObjects: 0.176852 ms CreateObjectMapping: 0.042900 ms MarkObjects: 1.915492 ms  DeleteObjects: 0.183003 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/URDFs
-  artifactKey: Guid(473d4f9475c4dd54b8777ff21470af2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URDFs using Guid(473d4f9475c4dd54b8777ff21470af2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f03efa9d2238f6d544fdadc76356d4') in 0.003604 seconds
-  Import took 0.005823 seconds .
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2260.
+Total: 3.473205 ms (FindLiveObjects: 0.212084 ms CreateObjectMapping: 0.071924 ms MarkObjects: 2.906135 ms  DeleteObjects: 0.282037 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/URDFs/rilab_ure_description
-  artifactKey: Guid(7e9b979b0991b539ba4ede7cb8c59b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URDFs/rilab_ure_description using Guid(7e9b979b0991b539ba4ede7cb8c59b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e570db0996842e0c808317ec2d9a6d') in 0.000491 seconds
-  Import took 0.002024 seconds .
+  path: Assets/URDFs/rilab_ure_description/Materials/LightGrey.mat
+  artifactKey: Guid(4aa5e8b6b83b9ef58b7a472a5ecf6236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URDFs/rilab_ure_description/Materials/LightGrey.mat using Guid(4aa5e8b6b83b9ef58b7a472a5ecf6236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20825c82b135a8656d9a8ea6b704a8b7') in 0.077648 seconds
+  Import took 0.080784 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.982379 seconds.
-  path: Assets/URDFs/rilab_ure_description/rilab_manipulator.urdf
-  artifactKey: Guid(9b69c7850cdcbb333bdd8a85c9a4ad23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URDFs/rilab_ure_description/rilab_manipulator.urdf using Guid(9b69c7850cdcbb333bdd8a85c9a4ad23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65304ade808a447043d84d68103e992') in 0.010541 seconds
-  Import took 0.013201 seconds .
+  Time since last request: 0.000241 seconds.
+  path: Assets/URDFs/rilab_ure_description/Materials/White.mat
+  artifactKey: Guid(478a39674ae0f7eadb0ccd6576104d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URDFs/rilab_ure_description/Materials/White.mat using Guid(478a39674ae0f7eadb0ccd6576104d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600765af4b6d3aeff2acc6efa7cf92e0') in 0.004755 seconds
+  Import took 0.007168 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.255619 seconds.
-  path: Assets/URDFs/rilab_ure_description/rilab_ure.urdf
-  artifactKey: Guid(313bc5cbabf3fe14a988953aa115cce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URDFs/rilab_ure_description/rilab_ure.urdf using Guid(313bc5cbabf3fe14a988953aa115cce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfd1a0aac3e001d2c326e178cb8574c') in 0.001150 seconds
-  Import took 0.003755 seconds .
+  Time since last request: 0.000216 seconds.
+  path: Assets/URDFs/rilab_ure_description/Materials/camera_aluminum.mat
+  artifactKey: Guid(f3bbf2c529404e24da7ee99c265b42c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URDFs/rilab_ure_description/Materials/camera_aluminum.mat using Guid(f3bbf2c529404e24da7ee99c265b42c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bfb5d24a2f977be8a726be80a966da4') in 0.004520 seconds
+  Import took 0.007048 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000525 seconds.
-  path: Assets/URDFs/rilab_ure_description/rilab_ure.urdf
-  artifactKey: Guid(313bc5cbabf3fe14a988953aa115cce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URDFs/rilab_ure_description/rilab_ure.urdf using Guid(313bc5cbabf3fe14a988953aa115cce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfd1a0aac3e001d2c326e178cb8574c') in 0.000822 seconds
-  Import took 0.002827 seconds .
+  Time since last request: 0.000232 seconds.
+  path: Assets/URDFs/rilab_ure_description/Materials/Default.mat
+  artifactKey: Guid(781f2bfd8494b22429ef26f2a3e33121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URDFs/rilab_ure_description/Materials/Default.mat using Guid(781f2bfd8494b22429ef26f2a3e33121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f72e1022bb9a388a5c22f0562d908c7') in 0.004802 seconds
+  Import took 0.007397 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.262757 seconds.
-  path: Assets/URDFs/rilab_ure_description/rilab_ure.urdf.xacro
-  artifactKey: Guid(bf7b15714484b7f29ae0f004333c76c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URDFs/rilab_ure_description/rilab_ure.urdf.xacro using Guid(bf7b15714484b7f29ae0f004333c76c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9628ce8da8febc081c1a6a27e1f042') in 0.001152 seconds
-  Import took 0.003830 seconds .
+  Time since last request: 0.000239 seconds.
+  path: Assets/URDFs/rilab_ure_description/Materials
+  artifactKey: Guid(17ed0c1d3672c582285fba6cf6541342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URDFs/rilab_ure_description/Materials using Guid(17ed0c1d3672c582285fba6cf6541342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8da05605472562cae354ae5a5207764') in 0.000470 seconds
+  Import took 0.002667 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.696610 seconds.
-  path: Assets/URDFs/rilab_ure_description/table_mini_wide.urdf.xacro
-  artifactKey: Guid(b2f4316f5c00fd3019c3d9b3a4e11b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URDFs/rilab_ure_description/table_mini_wide.urdf.xacro using Guid(b2f4316f5c00fd3019c3d9b3a4e11b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d40e87815ff88abd9d80dcc9d2af2e') in 0.000960 seconds
-  Import took 0.003041 seconds .
+  Time since last request: 12.454540 seconds.
+  path: Assets/Materials/Checker.mat
+  artifactKey: Guid(91923c30f9b71471c899b22c5fa17a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Checker.mat using Guid(91923c30f9b71471c899b22c5fa17a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e88e4416679bb98038d1abfa525c81f') in 0.007838 seconds
+  Import took 0.011134 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.420486 seconds.
-  path: Assets/URDFs/rilab_ure_description/workspace.urdf.xacro
-  artifactKey: Guid(231f1e37215ded12eab915fc05e39c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URDFs/rilab_ure_description/workspace.urdf.xacro using Guid(231f1e37215ded12eab915fc05e39c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0fbac352dc0ae68a59a865c0cae3437') in 0.000873 seconds
-  Import took 0.002930 seconds .
+  Time since last request: 0.001114 seconds.
+  path: Assets/Materials/Checker.mat
+  artifactKey: Guid(91923c30f9b71471c899b22c5fa17a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Checker.mat using Guid(91923c30f9b71471c899b22c5fa17a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e88e4416679bb98038d1abfa525c81f') in 0.007470 seconds
+  Import took 0.010180 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001595 seconds.
+Registered in 0.003325 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.588 seconds
+- Completed reload, in  0.930 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1588 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 67.9 MB.
-System memory in use after: 67.8 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2038.
-Total: 2.060895 ms (FindLiveObjects: 0.109466 ms CreateObjectMapping: 0.032420 ms MarkObjects: 1.820794 ms  DeleteObjects: 0.097824 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001575 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 32.75 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.622 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1813 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.5 MB.
-System memory in use after: 73.4 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2266.
-Total: 3.143384 ms (FindLiveObjects: 0.193824 ms CreateObjectMapping: 0.047839 ms MarkObjects: 2.767070 ms  DeleteObjects: 0.134081 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001557 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
 Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.578 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1813 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.5 MB.
-System memory in use after: 73.5 MB.
+System memory in use before: 75.2 MB.
+System memory in use after: 75.2 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2269.
-Total: 2.145343 ms (FindLiveObjects: 0.149280 ms CreateObjectMapping: 0.037670 ms MarkObjects: 1.874596 ms  DeleteObjects: 0.083386 ms)
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2303.
+Total: 2.859650 ms (FindLiveObjects: 0.185376 ms CreateObjectMapping: 0.054484 ms MarkObjects: 2.487206 ms  DeleteObjects: 0.131600 ms)
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001532 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.589 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1813 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 73.5 MB.
-System memory in use after: 73.5 MB.
-
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2272.
-Total: 2.345488 ms (FindLiveObjects: 0.160641 ms CreateObjectMapping: 0.042270 ms MarkObjects: 2.053080 ms  DeleteObjects: 0.089057 ms)
+Received Import Request.
+  Time since last request: 258.351105 seconds.
+  path: Assets/Materials/Checker.mat
+  artifactKey: Guid(d991bfd4771fdc4dfb516cbcb9f65770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Checker.mat using Guid(d991bfd4771fdc4dfb516cbcb9f65770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a9fac3124c55b3af8cd78749bb4246') in 0.056615 seconds
+  Import took 0.059581 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
