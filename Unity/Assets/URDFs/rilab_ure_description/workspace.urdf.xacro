@@ -1,0 +1,33 @@
+<?xml version = "1.0"?>
+<robot name="workspace">
+  <link name="workspace_link">
+    <visual>
+       <geometry>
+	   <box size="0.72 0.76 0.79"/>
+	</geometry>
+    </visual>
+    <collision>
+       <geometry>
+	   <box size="0.72 0.76 0.79"/>
+	</geometry>
+    </collision>
+    <inertial>
+    	<mass value="50"/>
+      <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+    </inertial>
+  </link>
+  <gazebo reference="workspace_link">
+      <dampingFactor>0.005</dampingFactor>
+      <kp>1000000</kp>
+      <kd>1.0</kd>
+      <mu1>1.0</mu1>
+      <mu2>1.0</mu2>
+  </gazebo>
+
+  <link name = "world"/>
+  <joint name="workspace_joint" type="fixed">
+    <parent link="world" />
+    <child link = "workspace_link" />
+    <origin xyz="0. 0. 0.395" rpy="0.0 0.0 0.0" />
+  </joint>
+</robot>
