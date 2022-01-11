@@ -1,0 +1,5 @@
+<launch>
+    <rosparam file="$(find kitchen_with_human)/config/params.yaml" command="load"/>
+    <node name= "test" pkg="kitchen_with_human" type="workspace_test.py" args="--wait" output="screen"/>
+    <include file="$(find ur5_e_moveit_config)/launch/demo.launch"/>
+</launch>
